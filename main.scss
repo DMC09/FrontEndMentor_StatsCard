@@ -14,8 +14,17 @@ $FONTSIZE: 15px;
 $INTER: 'Inter', sans-serif;
 $LEXENDDECA: 'Lexend Deca', sans-serif;
 body{
-  background: red;
+  background: $VERYDARKBLUE;
 }
+main {
+  background: $DARKSATBLUE;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 
 
 // DESKTOP MEDIA QUERY

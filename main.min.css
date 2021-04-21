@@ -1,1 +1,1 @@
-body{background:red}@media screen and (min-width: 375px) and (max-width: 1440px){body{background:blue}}
+body{background:#090B1A}main{background:#1B1938;display:flex;flex-flow:column;justify-content:center;align-items:center;height:100%}@media screen and (min-width: 375px) and (max-width: 1440px){body{background:blue}}
