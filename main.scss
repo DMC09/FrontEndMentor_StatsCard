@@ -1,0 +1,27 @@
+// PRIMARY
+$VERYDARKBLUE: #090B1A; // Main background
+$DARKSATBLUE: #1B1938; // Card background
+$SOFTVIOLET: #AA5CDB; // accent
+
+// NUETRAL
+$WHITE: #090B1A; // main heading/ stats
+$OFFWHITE: hsla(0, 0%, 100%, 0.75); // main paragraph
+$OFFWHITEALT: #hsla(0, 0%, 100%, 0.6); // stat headings
+
+
+// TYPOGRAPHY
+$FONTSIZE: 15px;
+$INTER: 'Inter', sans-serif;
+$LEXENDDECA: 'Lexend Deca', sans-serif;
+body{
+  background: red;
+}
+
+
+// DESKTOP MEDIA QUERY
+
+@media screen and (min-width: 375px) and (max-width:1440px) {
+  body {
+    background: blue;
+  }
+}
