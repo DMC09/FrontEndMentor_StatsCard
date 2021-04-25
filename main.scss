@@ -24,13 +24,13 @@ body {
   font-family: $INTER, $LEXENDDECA;
   background: $VERYDARKBLUE;
   padding: 4rem 2rem;
-  height: 100%;
 }
 main {
   background: $DARKSATBLUE;
   display: flex;
   flex-flow: column;
   border-radius: 10px;
+  margin-bottom: 3rem;
 }
 
 .card_photo {
@@ -115,6 +115,7 @@ main {
   body {
     display: grid;
     place-items: center;
+    height: 100%;
   }
   main {
     flex-flow: row-reverse;
@@ -152,7 +153,7 @@ main {
   .info_container .headline h1 {
     text-align: left;
     font-size: 3rem;
-    padding-top: 4rem;
+    padding-top: 6rem;
   }
   .info_container .description {
     text-align: left;
@@ -162,6 +163,8 @@ main {
   .info_container .stat_container {
     flex-flow: row;
     justify-content: space-between;
+    padding-bottom: 3rem;
+
   }
   .stat_container .stat {
     padding-bottom: 0rem;
